@@ -8,6 +8,7 @@
         src: url(DBHelvethaica.ttf);
       }
       body {
+        color: #000;
         background-color: #f2f2f2;
         font-family: DBHelvethaica !important;
       }
@@ -19,14 +20,11 @@
         justify-content: center;
         align-items: center;
         padding: 30px 50px;
+        background: url('images/BG.png');background-size: contain;background-repeat: no-repeat;
       }
       h4 {
-        color: #000;
-        font-size: 28px;
+        font-size: 36px;
         font-family: DBHelvethaica;
-      }
-      h4:hover {
-        color: #f00;
       }
       .Logo {
         width: 40%;
@@ -55,6 +53,7 @@
         width: 100%;
         margin-inline: 200px;
         padding-inline: 10%;
+        padding-top: 30px;
       }
       .image-button {
         display: flex;
@@ -62,10 +61,13 @@
         align-items: center;
         margin-bottom: 40px;
       }
+      .image-button:hover {
+        color: #f00 !important;
+      }
       .image {
-        width: 300px;
-        height: 300px;
-        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 0px;
         cursor: pointer;
       }
     </style>
@@ -75,8 +77,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <main>
-      <div class="container-fluid d-flex align-items-center justify-content-center flex-column" 
-        style="background: url('images/BG.png');background-size: contain;background-repeat: no-repeat;">
+      <div class="container-fluid d-flex align-items-center justify-content-center flex-column" >
         <!-- <img class="Logo" alt="Johnson &amp; Johnson logo " src="https://jnj-content-lab2.brightspotcdn.com/ac/25/bd2078f54d5992dd486ed26140ce/johnson-johnson-logo.svg"> -->
         <div class="row images">
           <div class="col-sm-4 image-button">
